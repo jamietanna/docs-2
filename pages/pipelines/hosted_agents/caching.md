@@ -11,6 +11,7 @@ Hosted Agent Caching is powered by Cache Volumes, which are attached to hosted a
 Cache volumes are scoped to a pipeline and are shared between all steps in a pipeline. Cache volumes are disabled by default and can be enabled at the pipeline level or at the step level by providing a list of paths to cache.
 
 Cache volumes act as regular disks with the following properties:
+
 - They're backed by local NVMe storage. You can expect high performance.
 - A Cache Volume is formatted as a regular Linux filesystem (e.g., ext4), so you can expect them to support any use-case you have that Linux supports.
 
