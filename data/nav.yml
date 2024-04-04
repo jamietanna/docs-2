@@ -325,6 +325,8 @@
           path: "pipelines/hosted-agents/code-access"
         - name: "Pipeline migration"
           path: "pipelines/hosted-agents/pipeline-migration"
+        - name: "Caching"
+          path: "pipelines/hosted-agents/caching"
     - name: "Security"
       children:
         - name: "Overview"
